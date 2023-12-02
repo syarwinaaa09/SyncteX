@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SyncteX
 
-## Getting Started
+![synctex-high-resolution-logo-transparent](https://github.com/syarwinaaa09/SyncteX/assets/114587158/db0fcf84-2587-4266-9359-134ed3efc3b5)
 
-First, run the development server:
+SyncteX is a project aimed at creating a responsive and real-time collaborative document editing application similar to Google Docs. This project is built using cutting-edge web technologies, including React.js, Next.js, Rich Text Editor, Tailwind CSS and Firebase.
 
-```bash
+### Features
+* **Real-time Collaboration**: Experience seamless collaboration with multiple users editing simultaneously in real-time.
+* **Rich Text Editing**: Incorporate a powerful Rich Text Editor to enhance the formatting and styling of your documents.
+* **Responsive Design**: Ensure a consistent and optimal user experience across various devices with a fully responsive design.
+* **Firebase Integration**: Leverage Firebase's real-time Firestore database for storing and syncing documents, and Firebase Auth for secure user authentication.
+* **Next.js Framework**: Utilise the benefits of Next.js for server-side rendering, improved performance and efficient routing.
+* **Tailwind CSS Styling**: Achieve a sleek and modern design with the help of Tailwind CSS, a utility-first CSS framework.
+
+### Getting Started
+
+#### Prerequisites
+* Node.js: Make sure you have Node.js installed on your machine.
+
+#### Installation
+1. Clone the repository:
+```
+git clone https://github.com/syarwinaaa09/syntecx.git
+```
+2. Navigate to the project directory:
+```
+cd synctex
+```
+3. Install dependencies
+```
+npm instaLL
+```
+4. Set up Firebase:
+  * Create a Firebase project.
+  * Obtain your Firebase configuration and update it in the project.
+5. Run the application:
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Contributing
+If you're interested in contributing to SyncteX, please follow our contribution guidelines.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Acknowledgments
+* Thanks to the open-source community for providing valuable tools and libraries.
+* Inspired by the collaborative editing features of Google Docs.
 
-## Learn More
+### Author
+Syarwina Ridwan
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to reach out for any questions or feedback! Happy coding :)
